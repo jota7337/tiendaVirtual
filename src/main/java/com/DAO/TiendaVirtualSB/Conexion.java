@@ -8,8 +8,8 @@ import java.sql.*;
 public class Conexion {
    /**Parametros de conexion*/
 static String bd = "dbgrupo12";
-static String login = "root";
-static String password = "tu_contraseña";
+static String login = "admin";
+static String password = "dbgrupo12";
 static String url = "jdbc:mysql://localhost:3306/" + bd;
 
    Connection connection = null;
