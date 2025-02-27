@@ -14,7 +14,6 @@ import com.DTO.TiendaVirtualSB.ProveedorVO;
 import com.fasterxml.jackson.databind.JsonNode;
 
 @RestController
-@Tag(name = "Usuarios", description = "Operaciones relacionadas con usuarios")
 public class ClienteController {	
 	@RequestMapping("/registrarCliente")
 	public void registrarCliente(ClienteVO cli) 
